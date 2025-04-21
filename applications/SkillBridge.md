@@ -340,17 +340,36 @@ I am seeking funding to support the following next steps in our project developm
 
 ## Project Overview
 
-| Category              | Details                 |
-|-----------------------|-------------------------|
-| Estimated Duration    | 3 months                |
-| Full-Time Equivalent  | 1 FTE                   |
-| Total Costs           | $10,000 USD             |
+     This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe the functionality we should expect in as much detail as possible, plus how we can verify and test that functionality.
+    
+    Important notes:
 
+    Each milestone is capped at $5,000 USD
+    Milestones must be delivered within 3 months of approval
+    The maximum grant amount is $10,000 USD per application (up to $15,000 USD per project in exceptional cases)
+    You will only receive payment after successful milestone delivery
+
+    
+        Please provide a breakdown of your budget by milestone:
+        Milestone 	Deliverables 	Cost (USD) 	Estimated Completion
+        1 	Features X, Y 	$5,000 	1.5 months
+        2 	Feature Z 	$5,000 	1.5 months
+        Total 		$10,000 	3 months
+
+        Number 	Deliverable 	Specification
+    0a. 	License 	Apache 2.0 / GPLv3 / MIT / Unlicense
+    0b. 	Documentation 	We will provide both inline documentation of the code and a basic tutorial that explains how a user can...
+    0c. 	Testing and Testing Guide 	Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
+    0d. 	Article 	We will publish an article that explains what was done/achieved as part of the grant.
+    1. 	Feature X 	We will create a feature that will... (Please describe in detail)
+    2. 	Feature Y 	The Y feature will... (Please describe in detail)
+    3. 	Feature Z 	The Z feature will... (Please describe in detail)
 
 ## Milestone 1: Core Platform & Smart Contract Development
 
 | Section                       | Description / Focus                                                                                          | Key Features / Coverage                                                                                              |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **0a. Documentation**         | License                                                                                                     | - Apache 2.0 / GPLv3 / MIT / Unlicense
 | **0b. Documentation**         | Inline code docs & user tutorial                                                                            | - Comprehensive comments for smart contracts<br>- Step-by-step guide: job posting, bidding, escrow, cross-chain pay  |
 | **0c. Testing & Security**    | Unit test coverage & testing guide                                                                          | - Instructions for running tests<br>- Validate escrow lock/release<br>- Payment settlement finality                  |
 | **0d. Ecosystem Article**     | Content focus for public article                                                                            | - Polkadot XCM integration<br>- Decentralized escrow benefits<br>- Substrate’s advantages for marketplaces           |
@@ -360,15 +379,15 @@ I am seeking funding to support the following next steps in our project developm
 | **4. Payment Release Mech.**  | Testnet implementation of payment logic                                                                     | - Automated fund release on milestone approval<br>- Cross-chain settlement simulation (DOT <> KSM)          
 
 ---
-
-    This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe the functionality we should expect in as much detail as possible, plus how we can verify and test that functionality.
-    
-    Important notes:
-
-    Each milestone is capped at $5,000 USD
-    Milestones must be delivered within 3 months of approval
-    The maximum grant amount is $10,000 USD per application (up to $15,000 USD per project in exceptional cases)
-    You will only receive payment after successful milestone delivery
+    Number 	Deliverable 	Specification
+    0a. 	License 	Apache 2.0 / GPLv3 / MIT / Unlicense
+    0b. 	Documentation 	We will provide both inline documentation of the code and a basic tutorial that explains how a user can...
+    0c. 	Testing and Testing Guide 	Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
+    0d. 	Article 	We will publish an article that explains what was done/achieved as part of the grant.
+    1. 	Feature X 	We will create a feature that will... (Please describe in detail)
+    2. 	Feature Y 	The Y feature will... (Please describe in detail)
+    3. 	Feature Z 	The Z feature will... (Please describe in detail)
+    💰 Budget Breakdown
 
 | Milestone | Deliverables                                                                                                 | Cost (USD) | Estimated Completion |
 |-----------|-------------------------------------------------------------------------------------------------------------|------------|---------------------|
@@ -383,24 +402,7 @@ I am seeking funding to support the following next steps in our project developm
 | **Total** |                                                                                                              | **$10,000**| **3 months**        |
 
 ---
-
-Overview
-
-    Estimated Duration: Duration of the whole project (maximum 3 months)
-    Full-Time Equivalent (FTE): Average number of full-time employees working on the project
-    Total Costs: Requested amount in USD for the whole project (maximum $10,000 USD)
-
-    Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
-
-Number 	Deliverable 	Specification
-0a. 	License 	Apache 2.0 / GPLv3 / MIT / Unlicense
-0b. 	Documentation 	We will provide both inline documentation of the code and a basic tutorial that explains how a user can...
-0c. 	Testing and Testing Guide 	Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
-0d. 	Article 	We will publish an article that explains what was done/achieved as part of the grant.
-1. 	Feature X 	We will create a feature that will... (Please describe in detail)
-2. 	Feature Y 	The Y feature will... (Please describe in detail)
-3. 	Feature Z 	The Z feature will... (Please describe in detail)
-💰 Budget Breakdown
+    💰 Budget Breakdown
 
         Please provide a breakdown of your budget by milestone:
         Milestone 	Deliverables 	Cost (USD) 	Estimated Completion
